@@ -1,8 +1,8 @@
 <template>
   <header>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">GYM CODING</a>
+        <a class="navbar-brand" href="#">MUSINSA</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -44,13 +44,13 @@
 </template>
 
 <script setup>
-import { useRouter } from 'vue-router';
+import { useRouter } from "vue-router";
 
 const router = useRouter();
 
 const goPage = () => {
   router.push({
-    name: 'PostCreate',
+    name: "PostCreate",
   });
 };
 </script>
