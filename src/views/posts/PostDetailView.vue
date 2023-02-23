@@ -13,10 +13,18 @@
       </div>
       <div class="cok-auto me-auto"></div>
       <div class="col-auto">
-        <button class="btn btn-outline-dark" @click="goListPage">목록</button>
+        <button
+          class="btn btn-outline-dark"
+          @click="goListPage"
+        >
+          목록
+        </button>
       </div>
       <div class="col-auto">
-        <button class="btn btn-outline-primary" @click="goEditPage">
+        <button
+          class="btn btn-outline-primary"
+          @click="goEditPage"
+        >
           수정
         </button>
       </div>
